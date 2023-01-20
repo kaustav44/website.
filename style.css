@@ -1,0 +1,131 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: blue;
+    width: 434px;;
+    font-family: 'Playfair Display', serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style : none;
+    font-size : 30px;
+    padding: 33px 0;
+    color :aliceblue;
+    cursor: pointer;
+}
+.sidebar nav li:hover{
+    color : crimson;
+}
+.main{
+    background-color: yellow;
+    width: 85vw;
+    height: 100vh;
+}
+.container{
+    display:flex;
+}
+.main .infocontainer{
+    background-color: aqua;
+    width: 80vw;
+    height: 74vh;
+    margin : 70px auto;
+    display: flex;
+    justify-content:center;
+    padding: 20px;
+}
+.devinfo{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    
+}
+.devpics{
+    align-items: center;
+    align-self: center;
+}
+.button{
+    margin-top: 10px;
+}
+.btn{
+    padding: 7px;
+    border-radius: 20px;
+    color: white;
+    background-color: crimson;
+    margin: 0 3px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: azure;
+    color : crimson;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 30px;
+}
+.hello{
+    font-size: 60px;
+}
+.contactform{
+    padding : 0 34px;
+    padding-top: 144px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactform h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.certificate{
+    display: inline grid;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+.certificate .image{
+    height: 15vh;
+    width: 15vh;
+    border-image-width: 15vh;
+}
+.cv{
+    direction: rtl;
+}
